@@ -4,26 +4,9 @@ response_one:
   email: test@example.com
   survey: survey_one
   responses:
-    - question:
-        id: 1
-        type: "scale"
-        title: "How are you feeling today?"
-        min: 1
-        max: 3
-      response:
-        value: 2
-    - question:
-        id: 2
-        type: "scale"
-        title: "Rate your stress level from 1-5"
-        min: 1
-        max: 5
-      response:
-        value: 5
-    - question:
-        id: 3
-        type: "text"
-        title: "Any additional comments?"
-        limit: 255
-      response:
-        value: "No comments"
+    - question_id: 1
+      value: 2
+    - question_id: 2
+      value: 5
+    - question_id: 3
+      value: "No comments"
