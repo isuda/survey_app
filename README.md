@@ -1,24 +1,36 @@
-# README
+# Survey App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup instructions
 
-Things you may want to cover:
+Software needed:
+- VSCode
+- VSCode devcontainer extension
+- Docker
 
-* Ruby version
+1. Clone repository
+2. Open repository in VS Code
+3. Reopen workspace in the devcontainer
+4. In a devcontainer ternminal, run `rails db:seed`
 
-* System dependencies
+## Run commands
 
-* Configuration
+In a VSCode devctonainer terminal: start the rails server
+```
+  rails s
+```
 
-* Database creation
+Go to localhost:3000 in a web browser
 
-* Database initialization
+## Testing instructions
 
-* How to run the test suite
+RSpec tests
+```
+  rails test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Jest tests
+```
+  npm test
+```
 
-* Deployment instructions
 
-* ...
